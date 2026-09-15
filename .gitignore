@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Environment variables & credentials
+.env
+config/database.ini
+*.pem
+*.key
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PostgreSQL local data volume (if running locally without named volume)
+docker/postgres_data/
+
+# Generated Raw and Processed Large Datasets (keep sample data in git)
+data/01_raw/*.csv
+data/02_processed/*.csv
+data/03_analytical/*.csv
+!data/sample/*.csv
+!data/*/.gitkeep
+
+# Power BI local backup / temporary files
+*.pbix.temp
+*.pbit.temp
+power_bi/~*
+
+# Pytest & Coverage cache
+.pytest_cache/
+.coverage
+htmlcov/
