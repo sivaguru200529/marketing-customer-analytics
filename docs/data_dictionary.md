@@ -7,13 +7,13 @@ This document describes the schema, tables, columns, constraints, and definition
 ## 1. Dimensional Tables
 
 ### `dim_channels`
-Stores marketing acquisition channels and traffic sources.
+Stores marketing acquisition channels and traffic sources (6 standardized channels: Organic Search, Paid Search, Paid Social, Affiliate, Email, Direct).
 
 | Column Name | Data Type | Constraint | Description | Example Values |
 | :--- | :--- | :--- | :--- | :--- |
-| `channel_id` | `INT` / `SERIAL` | `PRIMARY KEY` | Unique identifier for the marketing channel | `1`, `2`, `3` |
-| `channel_name` | `VARCHAR(50)` | `NOT NULL, UNIQUE` | Standardized channel name | `'Paid Search'`, `'Organic Search'`, `'Paid Social'` |
-| `channel_type` | `VARCHAR(30)` | `NOT NULL` | High-level channel classification | `'Paid'`, `'Organic'`, `'Owned'`, `'Referral'` |
+| `channel_id` | `INT` / `SERIAL` | `PRIMARY KEY` | Unique identifier for the marketing channel | `1`, `2`, `3`, `4`, `5`, `6` |
+| `channel_name` | `VARCHAR(50)` | `NOT NULL, UNIQUE` | Standardized channel name | `'Organic Search'`, `'Paid Search'`, `'Paid Social'`, `'Affiliate'`, `'Email'`, `'Direct'` |
+| `channel_type` | `VARCHAR(30)` | `NOT NULL` | High-level channel classification | `'Organic'`, `'Paid'`, `'Paid'`, `'Referral'`, `'Owned'`, `'Organic'` |
 
 ---
 
@@ -53,14 +53,14 @@ Catalog of merchandise sold on the Aura Retail platform.
 ## 2. Fact Tables
 
 ### `fact_marketing_spend`
-Daily aggregated marketing campaign spend, impressions, and engagement metrics.
+Daily aggregated marketing campaign spend, impressions, and engagement metrics for the 3 paid media channels (`Paid Search`, `Paid Social`, `Affiliate`) across 731 calendar days (2024-01-01 to 2025-12-31, 2,193 total records).
 
 | Column Name | Data Type | Constraint | Description | Example Values |
 | :--- | :--- | :--- | :--- | :--- |
 | `spend_id` | `INT` / `SERIAL` | `PRIMARY KEY` | Unique record identifier | `1001`, `1002` |
-| `spend_date` | `DATE` | `NOT NULL` | Date of marketing ad delivery | `'2024-05-01'` |
-| `channel_id` | `INT` | `FOREIGN KEY (dim_channels)` | Reference to marketing channel | `2` |
-| `campaign_name` | `VARCHAR(100)` | `NOT NULL` | Strategic campaign tag | `'Summer_Essentials_Search_Q2'` |
+| `spend_date` | `DATE` | `NOT NULL` | Date of marketing ad delivery (2024-01-01 to 2025-12-31) | `'2024-05-01'` |
+| `channel_id` | `INT` | `FOREIGN KEY (dim_channels)` | Reference to paid marketing channel (2, 3, or 4) | `2`, `3`, `4` |
+| `campaign_name` | `VARCHAR(100)` | `NOT NULL` | Strategic campaign tag | `'Search_Brand_Core'`, `'Meta_Advantage_Catalog_Ads'` |
 | `impressions` | `INT` | `DEFAULT 0, CHECK (impressions >= 0)` | Ad views served | `45200` |
 | `clicks` | `INT` | `DEFAULT 0, CHECK (clicks >= 0)` | Inbound link clicks generated | `1320` |
 | `spend_usd` | `NUMERIC(10,2)` | `NOT NULL, CHECK (spend_usd >= 0)` | Total capital deployed for day in USD | `784.50` |

@@ -1,0 +1,501 @@
+customer_id,first_name,last_name,email,signup_date,acquisition_channel_id,age,gender,city,state,device_preference
+CUST_00001,Margaret,Johnson,margaret.johnson1@example.com,2024-01-08,4,26,Female,Miami,FL,Mobile
+CUST_00002,Denise,Walker,denise.walker2@example.com,2024-01-11,6,44,Female,San Francisco,CA,Mobile
+CUST_00003,Noah,Rhodes,noah.rhodes3@example.com,2024-01-18,6,34,Male,Los Angeles,CA,Desktop
+CUST_00004,Stephanie,Miller,stephanie.miller4@example.com,2024-01-20,3,31,Female,Denver,CO,Mobile
+CUST_00005,Jennifer,Johnson,jennifer.johnson5@example.com,2024-01-26,3,33,Female,Charlotte,NC,Mobile
+CUST_00006,Daniel,Wagner,daniel.wagner6@example.com,2024-01-30,4,36,Male,Miami,FL,Mobile
+CUST_00007,Alexander,Gonzalez,alexander.gonzalez7@example.com,2024-01-31,2,41,Male,Tampa,FL,Mobile
+CUST_00008,Matthew,Gardner,matthew.gardner8@example.com,2024-02-02,5,23,Male,Seattle,WA,Mobile
+CUST_00009,Connie,Lawrence,connie.lawrence9@example.com,2024-02-02,3,23,Female,Nashville,TN,Mobile
+CUST_00010,Rhonda,Smith,rhonda.smith10@example.com,2024-02-05,1,46,Female,San Jose,CA,Mobile
+CUST_00011,Linda,Wolfe,linda.wolfe11@example.com,2024-02-10,1,29,Non-binary,Salt Lake City,UT,Mobile
+CUST_00012,Gina,Moore,gina.moore12@example.com,2024-02-13,5,18,Female,Chicago,IL,Mobile
+CUST_00013,Tina,Rogers,tina.rogers13@example.com,2024-02-20,1,39,Female,San Antonio,TX,Mobile
+CUST_00014,Anna,Davis,anna.davis14@example.com,2024-02-20,2,39,Female,Chicago,IL,Desktop
+CUST_00015,Ryan,Munoz,ryan.munoz15@example.com,2024-02-21,2,18,Male,Nashville,TN,Mobile
+CUST_00016,Robert,Blair,robert.blair16@example.com,2024-02-25,1,37,Male,Philadelphia,PA,Mobile
+CUST_00017,Joshua,Dudley,joshua.dudley17@example.com,2024-02-27,2,42,Male,San Diego,CA,Mobile
+CUST_00018,James,Arnold,james.arnold18@example.com,2024-02-28,4,38,Male,Salt Lake City,UT,Mobile
+CUST_00019,Sandra,Montgomery,sandra.montgomery19@example.com,2024-03-01,1,41,Female,Dallas,TX,Mobile
+CUST_00020,Shannon,Ray,shannon.ray20@example.com,2024-03-01,5,19,Female,Houston,TX,Desktop
+CUST_00021,Michele,Williams,michele.williams21@example.com,2024-03-02,5,38,Female,New York,NY,Mobile
+CUST_00022,Crystal,Roberts,crystal.roberts22@example.com,2024-03-07,2,31,Female,Philadelphia,PA,Mobile
+CUST_00023,Angela,Hall,angela.hall23@example.com,2024-03-10,1,29,Female,Tampa,FL,Mobile
+CUST_00024,Ashlee,Ramirez,ashlee.ramirez24@example.com,2024-03-10,3,44,Female,Boston,MA,Mobile
+CUST_00025,Madison,Diaz,madison.diaz25@example.com,2024-03-12,1,50,Female,Raleigh,NC,Mobile
+CUST_00026,Jacob,Clark,jacob.clark26@example.com,2024-03-13,2,54,Male,Philadelphia,PA,Mobile
+CUST_00027,Derek,Zuniga,derek.zuniga27@example.com,2024-03-14,6,48,Male,Dallas,TX,Mobile
+CUST_00028,Maria,Lynch,maria.lynch28@example.com,2024-03-16,6,33,Female,Houston,TX,Mobile
+CUST_00029,Carolyn,Daniel,carolyn.daniel29@example.com,2024-03-17,4,38,Female,Austin,TX,Desktop
+CUST_00030,Christopher,Gray,christopher.gray30@example.com,2024-03-23,2,42,Male,Boston,MA,Tablet
+CUST_00031,William,Bowman,william.bowman31@example.com,2024-03-26,3,35,Male,Portland,OR,Mobile
+CUST_00032,Justin,Cohen,justin.cohen32@example.com,2024-04-13,3,35,Male,Dallas,TX,Mobile
+CUST_00033,Sarah,Parsons,sarah.parsons33@example.com,2024-04-15,2,43,Female,Charlotte,NC,Desktop
+CUST_00034,Daryl,Johnson,daryl.johnson34@example.com,2024-04-15,3,33,Male,Miami,FL,Mobile
+CUST_00035,Emily,Adams,emily.adams35@example.com,2024-04-18,1,26,Female,San Diego,CA,Desktop
+CUST_00036,Christine,Hahn,christine.hahn36@example.com,2024-04-18,2,29,Female,Tampa,FL,Mobile
+CUST_00037,Sherri,Edwards,sherri.edwards37@example.com,2024-04-21,3,41,Female,San Jose,CA,Desktop
+CUST_00038,Mary,Foster,mary.foster38@example.com,2024-04-21,1,34,Female,Houston,TX,Tablet
+CUST_00039,Suzanne,Ellis,suzanne.ellis39@example.com,2024-04-23,1,38,Female,Raleigh,NC,Mobile
+CUST_00040,Deborah,Wright,deborah.wright40@example.com,2024-04-25,5,41,Female,Tampa,FL,Mobile
+CUST_00041,Justin,Baker,justin.baker41@example.com,2024-04-26,6,30,Male,Los Angeles,CA,Mobile
+CUST_00042,Lauren,Hurst,lauren.hurst42@example.com,2024-04-26,3,42,Female,Tampa,FL,Mobile
+CUST_00043,Jennifer,Robinson,jennifer.robinson43@example.com,2024-04-26,5,38,Female,San Francisco,CA,Mobile
+CUST_00044,Yolanda,Hicks,yolanda.hicks44@example.com,2024-04-28,6,20,Female,Portland,OR,Tablet
+CUST_00045,Ann,Williams,ann.williams45@example.com,2024-05-01,1,50,Female,San Antonio,TX,Mobile
+CUST_00046,Ashley,Burton,ashley.burton46@example.com,2024-05-04,3,28,Female,Miami,FL,Mobile
+CUST_00047,Rebecca,Henderson,rebecca.henderson47@example.com,2024-05-06,2,18,Female,Denver,CO,Desktop
+CUST_00048,Amy,James,amy.james48@example.com,2024-05-08,1,23,Female,Atlanta,GA,Mobile
+CUST_00049,Zachary,Rice,zachary.rice49@example.com,2024-05-09,4,23,Male,Atlanta,GA,Mobile
+CUST_00050,Wesley,Valencia,wesley.valencia50@example.com,2024-05-09,2,35,Male,Miami,FL,Tablet
+CUST_00051,Alexandra,Le,alexandra.le51@example.com,2024-05-11,3,31,Female,Denver,CO,Mobile
+CUST_00052,Michael,Herrera,michael.herrera52@example.com,2024-05-12,1,30,Male,Nashville,TN,Mobile
+CUST_00053,Derek,Davidson,derek.davidson53@example.com,2024-05-13,1,41,Male,Denver,CO,Mobile
+CUST_00054,Daniel,Graham,daniel.graham54@example.com,2024-05-14,6,38,Non-binary,New York,NY,Tablet
+CUST_00055,Jesse,Mckay,jesse.mckay55@example.com,2024-05-19,1,37,Male,New York,NY,Mobile
+CUST_00056,Shawn,Baker,shawn.baker56@example.com,2024-05-20,2,39,Male,San Francisco,CA,Mobile
+CUST_00057,Jonathan,White,jonathan.white57@example.com,2024-05-22,2,41,Male,Tampa,FL,Mobile
+CUST_00058,Thomas,Harrell,thomas.harrell58@example.com,2024-05-23,3,18,Male,Atlanta,GA,Mobile
+CUST_00059,Elizabeth,Fowler,elizabeth.fowler59@example.com,2024-05-24,3,30,Female,Phoenix,AZ,Tablet
+CUST_00060,Lisa,Hernandez,lisa.hernandez60@example.com,2024-05-24,3,18,Female,Charlotte,NC,Mobile
+CUST_00061,Pamela,Ryan,pamela.ryan61@example.com,2024-05-25,1,34,Female,Houston,TX,Tablet
+CUST_00062,Paula,Moreno,paula.moreno62@example.com,2024-05-27,2,34,Female,Austin,TX,Mobile
+CUST_00063,April,Nguyen,april.nguyen63@example.com,2024-05-28,5,46,Female,San Diego,CA,Mobile
+CUST_00064,Alicia,Hickman,alicia.hickman64@example.com,2024-05-29,3,47,Female,New York,NY,Desktop
+CUST_00065,Shawn,Decker,shawn.decker65@example.com,2024-05-30,3,36,Male,Portland,OR,Mobile
+CUST_00066,Eric,Brown,eric.brown66@example.com,2024-05-31,3,28,Male,Denver,CO,Mobile
+CUST_00067,Shawn,Arroyo,shawn.arroyo67@example.com,2024-06-04,4,39,Male,San Diego,CA,Desktop
+CUST_00068,Angelica,Tucker,angelica.tucker68@example.com,2024-06-06,1,28,Female,Denver,CO,Mobile
+CUST_00069,Andrea,Hodges,andrea.hodges69@example.com,2024-06-07,2,34,Female,New York,NY,Mobile
+CUST_00070,Ralph,Anderson,ralph.anderson70@example.com,2024-06-08,3,45,Male,San Jose,CA,Tablet
+CUST_00071,John,Pierce,john.pierce71@example.com,2024-06-08,2,28,Male,Denver,CO,Mobile
+CUST_00072,Joseph,Brennan,joseph.brennan72@example.com,2024-06-11,5,43,Non-binary,Dallas,TX,Mobile
+CUST_00073,Jay,Lewis,jay.lewis73@example.com,2024-06-11,3,41,Male,Portland,OR,Mobile
+CUST_00074,Joshua,Blair,joshua.blair74@example.com,2024-06-14,4,23,Male,Philadelphia,PA,Mobile
+CUST_00075,Christina,Collins,christina.collins75@example.com,2024-06-17,5,45,Female,Houston,TX,Mobile
+CUST_00076,Whitney,Santos,whitney.santos76@example.com,2024-06-17,3,42,Female,Denver,CO,Desktop
+CUST_00077,Jessica,Holmes,jessica.holmes77@example.com,2024-06-17,6,35,Female,Tampa,FL,Mobile
+CUST_00078,Bryan,Walker,bryan.walker78@example.com,2024-06-18,3,26,Male,Austin,TX,Desktop
+CUST_00079,George,Chapman,george.chapman79@example.com,2024-06-18,5,25,Male,Los Angeles,CA,Mobile
+CUST_00080,Crystal,Robinson,crystal.robinson80@example.com,2024-06-21,2,28,Female,Raleigh,NC,Mobile
+CUST_00081,Benjamin,Welch,benjamin.welch81@example.com,2024-06-22,3,40,Male,San Jose,CA,Mobile
+CUST_00082,Crystal,Whitehead,crystal.whitehead82@example.com,2024-06-22,3,23,Female,Phoenix,AZ,Desktop
+CUST_00083,Shannon,Jones,shannon.jones83@example.com,2024-06-22,1,39,Female,Atlanta,GA,Mobile
+CUST_00084,Cynthia,Caldwell,cynthia.caldwell84@example.com,2024-06-23,2,20,Female,San Diego,CA,Mobile
+CUST_00085,Cindy,Anderson,cindy.anderson85@example.com,2024-06-24,6,32,Female,San Francisco,CA,Desktop
+CUST_00086,Selena,Duncan,selena.duncan86@example.com,2024-06-26,3,35,Non-binary,San Diego,CA,Mobile
+CUST_00087,Kaitlyn,Mueller,kaitlyn.mueller87@example.com,2024-06-27,1,61,Female,Boston,MA,Mobile
+CUST_00088,Robert,Lee,robert.lee88@example.com,2024-07-01,2,19,Male,Boston,MA,Desktop
+CUST_00089,Brent,Jordan,brent.jordan89@example.com,2024-07-02,1,50,Male,Philadelphia,PA,Mobile
+CUST_00090,Jessica,Owens,jessica.owens90@example.com,2024-07-02,1,36,Female,Seattle,WA,Mobile
+CUST_00091,Monica,Nunez,monica.nunez91@example.com,2024-07-03,6,39,Female,Chicago,IL,Mobile
+CUST_00092,William,Garcia,william.garcia92@example.com,2024-07-04,3,35,Male,Miami,FL,Mobile
+CUST_00093,Jennifer,Morgan,jennifer.morgan93@example.com,2024-07-06,2,39,Female,Charlotte,NC,Mobile
+CUST_00094,Scott,Wright,scott.wright94@example.com,2024-07-09,3,32,Male,San Francisco,CA,Desktop
+CUST_00095,Cheryl,West,cheryl.west95@example.com,2024-07-12,1,50,Female,San Diego,CA,Mobile
+CUST_00096,Javier,Ramirez,javier.ramirez96@example.com,2024-07-12,2,29,Male,San Antonio,TX,Desktop
+CUST_00097,David,Leblanc,david.leblanc97@example.com,2024-07-14,3,46,Male,Boston,MA,Tablet
+CUST_00098,Jessica,Callahan,jessica.callahan98@example.com,2024-07-17,3,27,Female,Nashville,TN,Mobile
+CUST_00099,Krista,Williams,krista.williams99@example.com,2024-07-17,6,33,Female,Raleigh,NC,Desktop
+CUST_00100,Yvette,Huff,yvette.huff100@example.com,2024-07-19,3,22,Non-binary,New York,NY,Desktop
+CUST_00101,Tracy,House,tracy.house101@example.com,2024-07-20,3,39,Female,Philadelphia,PA,Tablet
+CUST_00102,Sarah,Martin,sarah.martin102@example.com,2024-07-22,4,50,Female,San Antonio,TX,Mobile
+CUST_00103,Karla,Lewis,karla.lewis103@example.com,2024-07-24,6,33,Female,San Antonio,TX,Mobile
+CUST_00104,Jennifer,Brown,jennifer.brown104@example.com,2024-07-26,4,32,Female,Seattle,WA,Mobile
+CUST_00105,James,Galloway,james.galloway105@example.com,2024-07-27,6,22,Male,Salt Lake City,UT,Mobile
+CUST_00106,Derek,Bowers,derek.bowers106@example.com,2024-08-02,4,31,Male,New York,NY,Mobile
+CUST_00107,Jordan,Henderson,jordan.henderson107@example.com,2024-08-05,6,18,Female,Portland,OR,Mobile
+CUST_00108,Tyler,Cowan,tyler.cowan108@example.com,2024-08-07,1,24,Male,Atlanta,GA,Mobile
+CUST_00109,Kristi,Higgins,kristi.higgins109@example.com,2024-08-09,4,36,Female,Atlanta,GA,Desktop
+CUST_00110,Brittney,Phillips,brittney.phillips110@example.com,2024-08-11,3,49,Female,Nashville,TN,Mobile
+CUST_00111,Wayne,Riley,wayne.riley111@example.com,2024-08-12,3,65,Male,Chicago,IL,Mobile
+CUST_00112,Amy,Adkins,amy.adkins112@example.com,2024-08-13,3,28,Non-binary,Minneapolis,MN,Mobile
+CUST_00113,Amy,Silva,amy.silva113@example.com,2024-08-15,6,50,Female,Philadelphia,PA,Mobile
+CUST_00114,Kathryn,Farrell,kathryn.farrell114@example.com,2024-08-15,6,37,Female,Denver,CO,Mobile
+CUST_00115,Brooke,Yu,brooke.yu115@example.com,2024-08-15,2,32,Female,Nashville,TN,Mobile
+CUST_00116,Bobby,Lopez,bobby.lopez116@example.com,2024-08-28,4,39,Male,Atlanta,GA,Mobile
+CUST_00117,Linda,Leonard,linda.leonard117@example.com,2024-08-31,4,35,Female,San Diego,CA,Mobile
+CUST_00118,Cynthia,Wilson,cynthia.wilson118@example.com,2024-09-08,2,35,Female,Austin,TX,Mobile
+CUST_00119,Steve,Sanchez,steve.sanchez119@example.com,2024-09-10,1,30,Male,Seattle,WA,Mobile
+CUST_00120,Linda,Harvey,linda.harvey120@example.com,2024-09-10,1,19,Female,New York,NY,Mobile
+CUST_00121,Jennifer,Silva,jennifer.silva121@example.com,2024-09-13,4,18,Female,Minneapolis,MN,Mobile
+CUST_00122,Kelly,Donovan,kelly.donovan122@example.com,2024-09-13,3,41,Female,Chicago,IL,Mobile
+CUST_00123,Christina,Moran,christina.moran123@example.com,2024-09-15,6,31,Female,Seattle,WA,Mobile
+CUST_00124,Cynthia,Foster,cynthia.foster124@example.com,2024-09-16,3,27,Female,Miami,FL,Mobile
+CUST_00125,Michael,Evans,michael.evans125@example.com,2024-09-17,6,34,Male,Los Angeles,CA,Desktop
+CUST_00126,Eugene,Walton,eugene.walton126@example.com,2024-09-20,2,43,Male,Raleigh,NC,Tablet
+CUST_00127,Benjamin,Ellis,benjamin.ellis127@example.com,2024-09-20,4,36,Male,Austin,TX,Desktop
+CUST_00128,Yolanda,Ferrell,yolanda.ferrell128@example.com,2024-09-22,1,27,Non-binary,New York,NY,Mobile
+CUST_00129,Angel,Lewis,angel.lewis129@example.com,2024-09-24,3,47,Female,Miami,FL,Mobile
+CUST_00130,Deborah,Mahoney,deborah.mahoney130@example.com,2024-09-24,4,51,Female,Boston,MA,Mobile
+CUST_00131,Stanley,Suarez,stanley.suarez131@example.com,2024-10-01,6,39,Male,Miami,FL,Desktop
+CUST_00132,Jaclyn,Moore,jaclyn.moore132@example.com,2024-10-02,5,45,Female,Charlotte,NC,Desktop
+CUST_00133,Roy,Warner,roy.warner133@example.com,2024-10-06,1,48,Male,Seattle,WA,Desktop
+CUST_00134,Logan,Archer,logan.archer134@example.com,2024-10-09,2,46,Male,Portland,OR,Desktop
+CUST_00135,Martha,Smith,martha.smith135@example.com,2024-10-15,1,41,Female,Dallas,TX,Mobile
+CUST_00136,Ruth,Evans,ruth.evans136@example.com,2024-10-19,1,41,Female,Boston,MA,Desktop
+CUST_00137,Mary,Mcmillan,mary.mcmillan137@example.com,2024-10-19,3,40,Female,Houston,TX,Desktop
+CUST_00138,Brandy,Wilson,brandy.wilson138@example.com,2024-10-20,3,22,Female,Atlanta,GA,Mobile
+CUST_00139,Ashley,Tran,ashley.tran139@example.com,2024-10-23,4,42,Female,San Antonio,TX,Desktop
+CUST_00140,Denise,Jacobs,denise.jacobs140@example.com,2024-10-23,6,19,Female,Nashville,TN,Mobile
+CUST_00141,Mitchell,Harris,mitchell.harris141@example.com,2024-10-25,4,25,Male,Portland,OR,Tablet
+CUST_00142,Mark,Baker,mark.baker142@example.com,2024-10-31,4,48,Male,Salt Lake City,UT,Desktop
+CUST_00143,John,Whitehead,john.whitehead143@example.com,2024-11-03,1,43,Male,San Francisco,CA,Mobile
+CUST_00144,Sarah,Davis,sarah.davis144@example.com,2024-11-03,2,50,Female,Chicago,IL,Desktop
+CUST_00145,Jessica,Hill,jessica.hill145@example.com,2024-11-05,3,31,Female,Houston,TX,Mobile
+CUST_00146,April,Wise,april.wise146@example.com,2024-11-06,5,21,Female,San Francisco,CA,Desktop
+CUST_00147,Mandy,Green,mandy.green147@example.com,2024-11-08,1,31,Female,Austin,TX,Desktop
+CUST_00148,Joyce,Arnold,joyce.arnold148@example.com,2024-11-09,3,35,Non-binary,New York,NY,Mobile
+CUST_00149,Jessica,Smith,jessica.smith149@example.com,2024-11-09,3,35,Female,San Antonio,TX,Desktop
+CUST_00150,Angela,Ware,angela.ware150@example.com,2024-11-12,1,46,Female,Salt Lake City,UT,Mobile
+CUST_00151,Stuart,Gardner,stuart.gardner151@example.com,2024-11-14,2,30,Male,Dallas,TX,Mobile
+CUST_00152,Sandra,Aguilar,sandra.aguilar152@example.com,2024-11-15,6,38,Female,Los Angeles,CA,Mobile
+CUST_00153,Brittany,Anderson,brittany.anderson153@example.com,2024-11-16,3,23,Female,Minneapolis,MN,Mobile
+CUST_00154,Elizabeth,Nolan,elizabeth.nolan154@example.com,2024-11-17,2,39,Female,Phoenix,AZ,Mobile
+CUST_00155,Robert,Valencia,robert.valencia155@example.com,2024-11-18,5,34,Male,Dallas,TX,Mobile
+CUST_00156,Steven,Clark,steven.clark156@example.com,2024-11-18,2,26,Male,New York,NY,Mobile
+CUST_00157,Danielle,Garcia,danielle.garcia157@example.com,2024-11-18,5,31,Female,Atlanta,GA,Mobile
+CUST_00158,Richard,Henson,richard.henson158@example.com,2024-11-19,2,32,Male,San Jose,CA,Desktop
+CUST_00159,Jason,Oliver,jason.oliver159@example.com,2024-11-19,3,31,Male,Salt Lake City,UT,Mobile
+CUST_00160,Christopher,Spears,christopher.spears160@example.com,2024-11-19,2,53,Male,Dallas,TX,Desktop
+CUST_00161,Sharon,Cherry,sharon.cherry161@example.com,2024-11-21,2,33,Female,Phoenix,AZ,Mobile
+CUST_00162,Rita,Keith,rita.keith162@example.com,2024-11-21,6,31,Female,Houston,TX,Mobile
+CUST_00163,Alexander,Doyle,alexander.doyle163@example.com,2024-11-22,1,18,Male,Phoenix,AZ,Mobile
+CUST_00164,Evelyn,Galvan,evelyn.galvan164@example.com,2024-11-23,1,24,Female,San Jose,CA,Mobile
+CUST_00165,Robert,Shields,robert.shields165@example.com,2024-11-23,2,31,Male,Chicago,IL,Mobile
+CUST_00166,Robert,Adams,robert.adams166@example.com,2024-11-23,3,26,Male,Austin,TX,Mobile
+CUST_00167,Rachel,Rodriguez,rachel.rodriguez167@example.com,2024-11-24,4,49,Female,Salt Lake City,UT,Mobile
+CUST_00168,Shane,Garrison,shane.garrison168@example.com,2024-11-24,6,32,Male,Charlotte,NC,Mobile
+CUST_00169,Daniel,Velasquez,daniel.velasquez169@example.com,2024-11-24,2,48,Male,Miami,FL,Mobile
+CUST_00170,Joe,Torres,joe.torres170@example.com,2024-11-27,2,35,Male,Tampa,FL,Mobile
+CUST_00171,Rebecca,Perez,rebecca.perez171@example.com,2024-11-28,1,34,Female,Charlotte,NC,Desktop
+CUST_00172,Alexander,Lee,alexander.lee172@example.com,2024-11-28,3,33,Male,Miami,FL,Mobile
+CUST_00173,Garrett,Lin,garrett.lin173@example.com,2024-11-29,6,34,Male,Salt Lake City,UT,Tablet
+CUST_00174,Walter,Ramirez,walter.ramirez174@example.com,2024-11-29,3,53,Male,Chicago,IL,Desktop
+CUST_00175,Martin,Ross,martin.ross175@example.com,2024-11-30,3,18,Male,Portland,OR,Tablet
+CUST_00176,William,Herrera,william.herrera176@example.com,2024-12-06,2,18,Male,San Diego,CA,Desktop
+CUST_00177,Teresa,Wilson,teresa.wilson177@example.com,2024-12-09,6,28,Female,Minneapolis,MN,Mobile
+CUST_00178,Tracy,White,tracy.white178@example.com,2024-12-12,3,34,Female,Tampa,FL,Mobile
+CUST_00179,Tonya,Baker,tonya.baker179@example.com,2024-12-12,1,42,Female,Seattle,WA,Mobile
+CUST_00180,Ashley,Hamilton,ashley.hamilton180@example.com,2024-12-13,2,39,Female,Chicago,IL,Desktop
+CUST_00181,Monica,Edwards,monica.edwards181@example.com,2024-12-14,1,30,Female,Dallas,TX,Mobile
+CUST_00182,Larry,Dixon,larry.dixon182@example.com,2024-12-14,2,45,Male,Austin,TX,Mobile
+CUST_00183,Janice,Ray,janice.ray183@example.com,2024-12-16,1,45,Female,San Francisco,CA,Desktop
+CUST_00184,David,Fletcher,david.fletcher184@example.com,2024-12-16,3,36,Male,San Francisco,CA,Mobile
+CUST_00185,Aaron,Frost,aaron.frost185@example.com,2024-12-16,3,45,Male,Boston,MA,Mobile
+CUST_00186,Kimberly,Ball,kimberly.ball186@example.com,2024-12-17,2,37,Female,San Francisco,CA,Desktop
+CUST_00187,Patrick,Lambert,patrick.lambert187@example.com,2024-12-17,2,28,Male,San Jose,CA,Mobile
+CUST_00188,Jackson,Jones,jackson.jones188@example.com,2024-12-17,6,42,Male,Austin,TX,Mobile
+CUST_00189,Matthew,Rivera,matthew.rivera189@example.com,2024-12-18,4,35,Male,Salt Lake City,UT,Desktop
+CUST_00190,Emily,Charles,emily.charles190@example.com,2024-12-19,3,34,Female,Nashville,TN,Mobile
+CUST_00191,Nathan,Evans,nathan.evans191@example.com,2024-12-20,2,50,Male,Denver,CO,Mobile
+CUST_00192,Kyle,Ortiz,kyle.ortiz192@example.com,2024-12-21,6,18,Non-binary,San Jose,CA,Mobile
+CUST_00193,James,Phillips,james.phillips193@example.com,2024-12-22,2,18,Male,Nashville,TN,Desktop
+CUST_00194,Cameron,Fisher,cameron.fisher194@example.com,2024-12-23,2,21,Male,Charlotte,NC,Mobile
+CUST_00195,Shelby,Byrd,shelby.byrd195@example.com,2024-12-25,6,30,Non-binary,Seattle,WA,Tablet
+CUST_00196,Stephanie,Gilbert,stephanie.gilbert196@example.com,2024-12-27,3,31,Female,New York,NY,Desktop
+CUST_00197,Eric,Kelley,eric.kelley197@example.com,2024-12-30,4,18,Male,Chicago,IL,Mobile
+CUST_00198,April,Mitchell,april.mitchell198@example.com,2024-12-31,3,23,Female,Houston,TX,Mobile
+CUST_00199,Russell,Carpenter,russell.carpenter199@example.com,2024-12-31,3,25,Non-binary,Seattle,WA,Mobile
+CUST_00200,Mary,Marshall,mary.marshall200@example.com,2025-01-01,2,61,Female,Atlanta,GA,Desktop
+CUST_00201,Jessica,Lewis,jessica.lewis201@example.com,2025-01-03,2,54,Female,Portland,OR,Mobile
+CUST_00202,John,Santana,john.santana202@example.com,2025-01-04,2,29,Male,Philadelphia,PA,Mobile
+CUST_00203,Rebecca,Jackson,rebecca.jackson203@example.com,2025-01-07,1,30,Female,Charlotte,NC,Mobile
+CUST_00204,Bradley,Robertson,bradley.robertson204@example.com,2025-01-07,6,21,Male,Miami,FL,Tablet
+CUST_00205,Mackenzie,Rogers,mackenzie.rogers205@example.com,2025-01-08,2,18,Female,Los Angeles,CA,Mobile
+CUST_00206,Loretta,Potter,loretta.potter206@example.com,2025-01-09,3,33,Non-binary,Dallas,TX,Desktop
+CUST_00207,Michael,Walker,michael.walker207@example.com,2025-01-09,4,23,Male,San Diego,CA,Mobile
+CUST_00208,Christina,Johnson,christina.johnson208@example.com,2025-01-10,4,33,Female,Tampa,FL,Desktop
+CUST_00209,David,Alvarez,david.alvarez209@example.com,2025-01-16,2,18,Male,San Francisco,CA,Mobile
+CUST_00210,Sarah,Jones,sarah.jones210@example.com,2025-01-18,3,26,Female,Portland,OR,Mobile
+CUST_00211,Jason,Soto,jason.soto211@example.com,2025-01-21,6,36,Male,Denver,CO,Desktop
+CUST_00212,Cory,Horton,cory.horton212@example.com,2025-01-21,3,38,Male,Seattle,WA,Tablet
+CUST_00213,Johnny,Sanchez,johnny.sanchez213@example.com,2025-01-24,5,39,Male,San Diego,CA,Mobile
+CUST_00214,Mary,Smith,mary.smith214@example.com,2025-01-26,6,19,Female,Charlotte,NC,Mobile
+CUST_00215,Nicole,Carrillo,nicole.carrillo215@example.com,2025-01-26,4,43,Female,Chicago,IL,Mobile
+CUST_00216,Brian,Coleman,brian.coleman216@example.com,2025-01-27,1,25,Male,San Antonio,TX,Mobile
+CUST_00217,Christopher,Rubio,christopher.rubio217@example.com,2025-01-27,3,41,Male,Houston,TX,Mobile
+CUST_00218,Kelly,Williams,kelly.williams218@example.com,2025-01-28,1,34,Female,Seattle,WA,Desktop
+CUST_00219,Danielle,Charles,danielle.charles219@example.com,2025-01-31,3,19,Female,San Diego,CA,Mobile
+CUST_00220,Joyce,Solis,joyce.solis220@example.com,2025-01-31,6,31,Female,Phoenix,AZ,Desktop
+CUST_00221,Michael,Travis,michael.travis221@example.com,2025-02-03,3,38,Male,Austin,TX,Mobile
+CUST_00222,Linda,Dodson,linda.dodson222@example.com,2025-02-06,2,41,Female,Salt Lake City,UT,Mobile
+CUST_00223,Stephanie,Salazar,stephanie.salazar223@example.com,2025-02-07,1,32,Female,Boston,MA,Desktop
+CUST_00224,Jennifer,Wagner,jennifer.wagner224@example.com,2025-02-10,6,51,Non-binary,Portland,OR,Mobile
+CUST_00225,Sandra,Kelley,sandra.kelley225@example.com,2025-02-10,1,45,Female,Tampa,FL,Desktop
+CUST_00226,Steven,Manning,steven.manning226@example.com,2025-02-11,1,31,Male,Tampa,FL,Mobile
+CUST_00227,Karen,Green,karen.green227@example.com,2025-02-14,2,42,Female,Dallas,TX,Tablet
+CUST_00228,David,Walsh,david.walsh228@example.com,2025-02-14,1,55,Male,Tampa,FL,Desktop
+CUST_00229,Ralph,Boyd,ralph.boyd229@example.com,2025-02-14,3,56,Male,Tampa,FL,Desktop
+CUST_00230,Mark,Hill,mark.hill230@example.com,2025-02-17,3,20,Male,Raleigh,NC,Mobile
+CUST_00231,Angela,Mitchell,angela.mitchell231@example.com,2025-02-17,2,24,Female,Dallas,TX,Mobile
+CUST_00232,Devon,Flores,devon.flores232@example.com,2025-02-20,1,50,Male,Philadelphia,PA,Mobile
+CUST_00233,Joshua,Taylor,joshua.taylor233@example.com,2025-02-21,1,22,Male,Atlanta,GA,Mobile
+CUST_00234,Crystal,Benson,crystal.benson234@example.com,2025-02-21,2,19,Female,San Francisco,CA,Mobile
+CUST_00235,Michelle,Brown,michelle.brown235@example.com,2025-02-23,1,29,Female,Tampa,FL,Mobile
+CUST_00236,Jennifer,Daniels,jennifer.daniels236@example.com,2025-02-24,3,39,Female,Boston,MA,Mobile
+CUST_00237,Robert,Clark,robert.clark237@example.com,2025-02-26,2,33,Non-binary,Houston,TX,Mobile
+CUST_00238,Jason,Stein,jason.stein238@example.com,2025-02-27,2,27,Male,San Jose,CA,Mobile
+CUST_00239,Kevin,Dominguez,kevin.dominguez239@example.com,2025-02-27,2,27,Male,Minneapolis,MN,Mobile
+CUST_00240,Scott,Cannon,scott.cannon240@example.com,2025-02-28,2,26,Male,Boston,MA,Mobile
+CUST_00241,James,Smith,james.smith241@example.com,2025-03-02,1,24,Male,Dallas,TX,Mobile
+CUST_00242,Heather,Molina,heather.molina242@example.com,2025-03-03,1,59,Female,Dallas,TX,Mobile
+CUST_00243,Sarah,Ashley,sarah.ashley243@example.com,2025-03-04,6,37,Female,Los Angeles,CA,Mobile
+CUST_00244,Jason,Adkins,jason.adkins244@example.com,2025-03-05,1,44,Male,San Antonio,TX,Mobile
+CUST_00245,Kimberly,Morrison,kimberly.morrison245@example.com,2025-03-08,3,29,Female,Nashville,TN,Desktop
+CUST_00246,Daniel,Robinson,daniel.robinson246@example.com,2025-03-10,3,32,Male,Philadelphia,PA,Mobile
+CUST_00247,Jeffrey,Johnson,jeffrey.johnson247@example.com,2025-03-11,2,26,Male,Raleigh,NC,Mobile
+CUST_00248,Gabriella,Shelton,gabriella.shelton248@example.com,2025-03-13,2,18,Female,Los Angeles,CA,Tablet
+CUST_00249,Jared,Martin,jared.martin249@example.com,2025-03-14,4,19,Male,Atlanta,GA,Mobile
+CUST_00250,Julie,Anderson,julie.anderson250@example.com,2025-03-19,5,18,Female,Seattle,WA,Desktop
+CUST_00251,Cindy,Johnson,cindy.johnson251@example.com,2025-03-19,2,18,Non-binary,Portland,OR,Desktop
+CUST_00252,James,Elliott,james.elliott252@example.com,2025-03-22,2,21,Male,Tampa,FL,Mobile
+CUST_00253,Alexander,Day,alexander.day253@example.com,2025-03-22,2,49,Male,Boston,MA,Mobile
+CUST_00254,Brandy,Murray,brandy.murray254@example.com,2025-03-23,3,34,Female,Miami,FL,Desktop
+CUST_00255,Amber,Gray,amber.gray255@example.com,2025-03-24,3,48,Female,Nashville,TN,Tablet
+CUST_00256,Christine,Murphy,christine.murphy256@example.com,2025-03-28,2,39,Female,Denver,CO,Mobile
+CUST_00257,Paige,Gray,paige.gray257@example.com,2025-03-29,2,43,Female,Phoenix,AZ,Mobile
+CUST_00258,Nicole,Decker,nicole.decker258@example.com,2025-03-29,6,24,Female,San Jose,CA,Mobile
+CUST_00259,Darlene,Miller,darlene.miller259@example.com,2025-04-01,1,40,Female,Philadelphia,PA,Mobile
+CUST_00260,Andrew,Ryan,andrew.ryan260@example.com,2025-04-02,3,42,Non-binary,Seattle,WA,Desktop
+CUST_00261,Zoe,Bell,zoe.bell261@example.com,2025-04-04,3,28,Female,Atlanta,GA,Mobile
+CUST_00262,Marie,Harrington,marie.harrington262@example.com,2025-04-04,1,40,Female,Philadelphia,PA,Desktop
+CUST_00263,Matthew,Webster,matthew.webster263@example.com,2025-04-09,1,40,Male,Philadelphia,PA,Desktop
+CUST_00264,Travis,Gonzalez,travis.gonzalez264@example.com,2025-04-11,1,28,Male,Portland,OR,Mobile
+CUST_00265,Alex,Hernandez,alex.hernandez265@example.com,2025-04-13,6,22,Male,Austin,TX,Mobile
+CUST_00266,Cameron,Caldwell,cameron.caldwell266@example.com,2025-04-13,1,21,Male,Phoenix,AZ,Desktop
+CUST_00267,Justin,Robinson,justin.robinson267@example.com,2025-04-23,1,35,Male,Minneapolis,MN,Desktop
+CUST_00268,Michael,Wang,michael.wang268@example.com,2025-04-25,1,38,Male,Minneapolis,MN,Desktop
+CUST_00269,Christopher,Lawson,christopher.lawson269@example.com,2025-04-26,1,25,Male,Portland,OR,Mobile
+CUST_00270,Paul,Wilson,paul.wilson270@example.com,2025-04-26,3,34,Male,Charlotte,NC,Mobile
+CUST_00271,Sabrina,Oconnell,sabrina.oconnell271@example.com,2025-04-26,2,40,Female,Raleigh,NC,Mobile
+CUST_00272,Ashley,Johnson,ashley.johnson272@example.com,2025-04-27,3,41,Female,Boston,MA,Desktop
+CUST_00273,Emily,Byrd,emily.byrd273@example.com,2025-04-27,3,51,Female,San Antonio,TX,Mobile
+CUST_00274,Tina,Sanders,tina.sanders274@example.com,2025-04-28,5,48,Female,Salt Lake City,UT,Mobile
+CUST_00275,Miguel,Jones,miguel.jones275@example.com,2025-04-30,1,23,Male,San Antonio,TX,Mobile
+CUST_00276,Melissa,Burton,melissa.burton276@example.com,2025-05-04,5,53,Female,San Antonio,TX,Mobile
+CUST_00277,Ashley,Barton,ashley.barton277@example.com,2025-05-04,3,28,Female,Portland,OR,Desktop
+CUST_00278,Sarah,Burke,sarah.burke278@example.com,2025-05-05,1,45,Female,Tampa,FL,Mobile
+CUST_00279,Bryan,Riggs,bryan.riggs279@example.com,2025-05-07,4,35,Male,Dallas,TX,Mobile
+CUST_00280,Rachel,Reed,rachel.reed280@example.com,2025-05-09,5,29,Female,Minneapolis,MN,Desktop
+CUST_00281,Jeffrey,Wood,jeffrey.wood281@example.com,2025-05-10,2,18,Male,San Francisco,CA,Desktop
+CUST_00282,Jonathan,Peterson,jonathan.peterson282@example.com,2025-05-10,6,32,Male,Portland,OR,Mobile
+CUST_00283,Sarah,Short,sarah.short283@example.com,2025-05-10,3,18,Female,New York,NY,Mobile
+CUST_00284,Brian,Yu,brian.yu284@example.com,2025-05-10,3,45,Male,Miami,FL,Tablet
+CUST_00285,Madison,Poole,madison.poole285@example.com,2025-05-15,6,51,Female,Phoenix,AZ,Desktop
+CUST_00286,Michelle,Graham,michelle.graham286@example.com,2025-05-15,2,25,Female,Salt Lake City,UT,Mobile
+CUST_00287,Nicholas,Sheppard,nicholas.sheppard287@example.com,2025-05-17,5,37,Male,Los Angeles,CA,Mobile
+CUST_00288,Devin,Morton,devin.morton288@example.com,2025-05-17,2,26,Male,Raleigh,NC,Mobile
+CUST_00289,Kimberly,Webb,kimberly.webb289@example.com,2025-05-19,4,27,Female,Phoenix,AZ,Mobile
+CUST_00290,Jeffrey,Simon,jeffrey.simon290@example.com,2025-05-22,3,43,Male,San Jose,CA,Desktop
+CUST_00291,Debra,Christian,debra.christian291@example.com,2025-05-23,2,34,Female,Philadelphia,PA,Mobile
+CUST_00292,Ronald,Miller,ronald.miller292@example.com,2025-05-23,2,53,Male,Portland,OR,Mobile
+CUST_00293,Stephen,Sanchez,stephen.sanchez293@example.com,2025-05-24,2,29,Male,Austin,TX,Desktop
+CUST_00294,John,Bishop,john.bishop294@example.com,2025-05-25,1,45,Male,Minneapolis,MN,Tablet
+CUST_00295,James,Johnson,james.johnson295@example.com,2025-05-25,1,35,Male,Los Angeles,CA,Desktop
+CUST_00296,Sarah,White,sarah.white296@example.com,2025-05-27,2,43,Female,San Jose,CA,Mobile
+CUST_00297,Daniel,Salinas,daniel.salinas297@example.com,2025-05-27,1,29,Male,Tampa,FL,Mobile
+CUST_00298,Gerald,Beard,gerald.beard298@example.com,2025-05-29,1,33,Male,San Francisco,CA,Mobile
+CUST_00299,Michael,Hill,michael.hill299@example.com,2025-05-31,4,33,Male,Philadelphia,PA,Mobile
+CUST_00300,Alexandra,Vaughan,alexandra.vaughan300@example.com,2025-06-01,3,25,Female,Austin,TX,Mobile
+CUST_00301,Angela,Cortez,angela.cortez301@example.com,2025-06-03,4,41,Female,Austin,TX,Mobile
+CUST_00302,Katherine,Chang,katherine.chang302@example.com,2025-06-05,2,41,Female,Boston,MA,Mobile
+CUST_00303,Melissa,Brewer,melissa.brewer303@example.com,2025-06-06,6,41,Female,Denver,CO,Desktop
+CUST_00304,Katherine,Mcguire,katherine.mcguire304@example.com,2025-06-09,3,51,Female,Chicago,IL,Tablet
+CUST_00305,Anna,Walker,anna.walker305@example.com,2025-06-10,1,50,Female,Charlotte,NC,Mobile
+CUST_00306,Michael,Torres,michael.torres306@example.com,2025-06-12,1,30,Male,Philadelphia,PA,Mobile
+CUST_00307,Lauren,Kennedy,lauren.kennedy307@example.com,2025-06-13,3,38,Female,San Diego,CA,Mobile
+CUST_00308,Joseph,Coleman,joseph.coleman308@example.com,2025-06-14,1,27,Male,Salt Lake City,UT,Mobile
+CUST_00309,Patrick,Rivera,patrick.rivera309@example.com,2025-06-21,3,34,Male,Nashville,TN,Mobile
+CUST_00310,Michael,Nelson,michael.nelson310@example.com,2025-06-22,6,27,Male,Austin,TX,Mobile
+CUST_00311,Danielle,Martinez,danielle.martinez311@example.com,2025-06-24,1,52,Female,Tampa,FL,Desktop
+CUST_00312,Cheryl,Wilson,cheryl.wilson312@example.com,2025-06-24,1,38,Female,Austin,TX,Mobile
+CUST_00313,Joshua,Gill,joshua.gill313@example.com,2025-06-25,6,32,Male,Boston,MA,Desktop
+CUST_00314,Cody,Robinson,cody.robinson314@example.com,2025-06-26,3,47,Male,Philadelphia,PA,Mobile
+CUST_00315,Kari,Hardy,kari.hardy315@example.com,2025-06-27,1,18,Female,Phoenix,AZ,Mobile
+CUST_00316,William,Warren,william.warren316@example.com,2025-06-28,6,18,Male,Seattle,WA,Mobile
+CUST_00317,Douglas,Garcia,douglas.garcia317@example.com,2025-06-28,6,43,Male,Boston,MA,Mobile
+CUST_00318,Cory,Perez,cory.perez318@example.com,2025-06-29,3,35,Male,Portland,OR,Mobile
+CUST_00319,Cassie,Smith,cassie.smith319@example.com,2025-06-30,3,37,Female,Austin,TX,Tablet
+CUST_00320,Kimberly,Hill,kimberly.hill320@example.com,2025-07-01,2,19,Female,Tampa,FL,Mobile
+CUST_00321,Valerie,Tran,valerie.tran321@example.com,2025-07-03,1,34,Female,Atlanta,GA,Mobile
+CUST_00322,Michael,Martinez,michael.martinez322@example.com,2025-07-04,3,56,Male,Los Angeles,CA,Mobile
+CUST_00323,Sheena,Henry,sheena.henry323@example.com,2025-07-06,2,43,Female,Minneapolis,MN,Mobile
+CUST_00324,Shelley,Andrews,shelley.andrews324@example.com,2025-07-07,3,36,Female,Boston,MA,Mobile
+CUST_00325,Taylor,Alexander,taylor.alexander325@example.com,2025-07-07,5,29,Non-binary,Austin,TX,Mobile
+CUST_00326,Cathy,Williams,cathy.williams326@example.com,2025-07-07,1,30,Female,Seattle,WA,Desktop
+CUST_00327,Teresa,Woods,teresa.woods327@example.com,2025-07-08,3,18,Female,San Diego,CA,Mobile
+CUST_00328,Samantha,Morales,samantha.morales328@example.com,2025-07-09,2,37,Female,Atlanta,GA,Mobile
+CUST_00329,Angela,Soto,angela.soto329@example.com,2025-07-09,6,43,Female,Boston,MA,Desktop
+CUST_00330,Amy,Hernandez,amy.hernandez330@example.com,2025-07-11,2,18,Female,San Jose,CA,Desktop
+CUST_00331,Kristine,Torres,kristine.torres331@example.com,2025-07-12,3,27,Female,San Antonio,TX,Mobile
+CUST_00332,Xavier,Wilson,xavier.wilson332@example.com,2025-07-13,3,21,Male,Austin,TX,Mobile
+CUST_00333,Phillip,Obrien,phillip.obrien333@example.com,2025-07-14,2,23,Male,Seattle,WA,Mobile
+CUST_00334,Rachel,Perez,rachel.perez334@example.com,2025-07-14,3,35,Female,Seattle,WA,Mobile
+CUST_00335,Joseph,Hayes,joseph.hayes335@example.com,2025-07-15,4,18,Male,San Diego,CA,Mobile
+CUST_00336,Jessica,Dalton,jessica.dalton336@example.com,2025-07-16,3,41,Female,Boston,MA,Desktop
+CUST_00337,Veronica,Torres,veronica.torres337@example.com,2025-07-16,4,42,Non-binary,Philadelphia,PA,Mobile
+CUST_00338,Lisa,Lynch,lisa.lynch338@example.com,2025-07-16,6,31,Female,Denver,CO,Desktop
+CUST_00339,Patrick,Meza,patrick.meza339@example.com,2025-07-18,2,18,Male,Chicago,IL,Mobile
+CUST_00340,Christine,Clark,christine.clark340@example.com,2025-07-19,3,23,Female,Seattle,WA,Desktop
+CUST_00341,Matthew,Moore,matthew.moore341@example.com,2025-07-20,1,48,Male,Charlotte,NC,Desktop
+CUST_00342,Carrie,Jones,carrie.jones342@example.com,2025-07-20,4,18,Female,Portland,OR,Mobile
+CUST_00343,Aaron,Hayes,aaron.hayes343@example.com,2025-07-23,3,30,Male,Nashville,TN,Mobile
+CUST_00344,Linda,Carter,linda.carter344@example.com,2025-07-25,2,21,Female,Minneapolis,MN,Mobile
+CUST_00345,David,Mann,david.mann345@example.com,2025-07-26,1,43,Male,Los Angeles,CA,Desktop
+CUST_00346,Michele,Gibson,michele.gibson346@example.com,2025-07-26,6,27,Female,Dallas,TX,Mobile
+CUST_00347,Michael,Bradshaw,michael.bradshaw347@example.com,2025-07-28,2,38,Male,Miami,FL,Mobile
+CUST_00348,Richard,Weber,richard.weber348@example.com,2025-07-28,3,40,Male,Portland,OR,Mobile
+CUST_00349,Donna,Peck,donna.peck349@example.com,2025-08-02,1,54,Non-binary,Boston,MA,Desktop
+CUST_00350,Jessica,Stephens,jessica.stephens350@example.com,2025-08-03,6,32,Female,Salt Lake City,UT,Mobile
+CUST_00351,Maria,Kerr,maria.kerr351@example.com,2025-08-04,1,38,Female,San Antonio,TX,Mobile
+CUST_00352,Samantha,Jones,samantha.jones352@example.com,2025-08-05,1,18,Female,Houston,TX,Tablet
+CUST_00353,Carol,Parker,carol.parker353@example.com,2025-08-05,5,47,Female,Chicago,IL,Mobile
+CUST_00354,Paul,Carroll,paul.carroll354@example.com,2025-08-06,6,26,Male,Boston,MA,Desktop
+CUST_00355,Keith,Martinez,keith.martinez355@example.com,2025-08-06,2,28,Non-binary,Miami,FL,Mobile
+CUST_00356,Haley,Lyons,haley.lyons356@example.com,2025-08-07,3,34,Non-binary,San Antonio,TX,Mobile
+CUST_00357,Tommy,Mason,tommy.mason357@example.com,2025-08-08,4,18,Male,Charlotte,NC,Desktop
+CUST_00358,Johnny,Miller,johnny.miller358@example.com,2025-08-10,6,37,Male,Minneapolis,MN,Desktop
+CUST_00359,Andrew,Reynolds,andrew.reynolds359@example.com,2025-08-14,2,45,Male,Dallas,TX,Desktop
+CUST_00360,Frank,Wright,frank.wright360@example.com,2025-08-14,3,37,Male,Philadelphia,PA,Mobile
+CUST_00361,Anna,Hayden,anna.hayden361@example.com,2025-08-18,4,18,Female,Minneapolis,MN,Mobile
+CUST_00362,Russell,Johnston,russell.johnston362@example.com,2025-08-19,4,33,Male,Nashville,TN,Mobile
+CUST_00363,Trevor,Key,trevor.key363@example.com,2025-08-20,4,42,Male,Phoenix,AZ,Mobile
+CUST_00364,Megan,Adams,megan.adams364@example.com,2025-08-21,3,18,Female,San Antonio,TX,Mobile
+CUST_00365,Amanda,Avila,amanda.avila365@example.com,2025-08-23,1,22,Female,Seattle,WA,Mobile
+CUST_00366,Thomas,Pearson,thomas.pearson366@example.com,2025-08-25,6,44,Non-binary,Denver,CO,Mobile
+CUST_00367,Sabrina,White,sabrina.white367@example.com,2025-08-26,6,37,Non-binary,Houston,TX,Mobile
+CUST_00368,Kevin,Walters,kevin.walters368@example.com,2025-08-28,4,39,Male,San Francisco,CA,Mobile
+CUST_00369,John,Davis,john.davis369@example.com,2025-09-01,1,54,Male,Austin,TX,Mobile
+CUST_00370,Hannah,Cook,hannah.cook370@example.com,2025-09-01,2,39,Female,Austin,TX,Desktop
+CUST_00371,Meagan,Hodge,meagan.hodge371@example.com,2025-09-04,4,41,Female,Los Angeles,CA,Mobile
+CUST_00372,Gary,Steele,gary.steele372@example.com,2025-09-08,1,64,Male,Tampa,FL,Mobile
+CUST_00373,Dwayne,Landry,dwayne.landry373@example.com,2025-09-08,6,32,Male,Philadelphia,PA,Desktop
+CUST_00374,Robin,Pierce,robin.pierce374@example.com,2025-09-09,2,25,Female,Raleigh,NC,Desktop
+CUST_00375,Jesse,Edwards,jesse.edwards375@example.com,2025-09-10,3,39,Male,Seattle,WA,Mobile
+CUST_00376,Erica,Cordova,erica.cordova376@example.com,2025-09-11,6,39,Female,Salt Lake City,UT,Mobile
+CUST_00377,Jared,Robertson,jared.robertson377@example.com,2025-09-18,2,28,Male,Phoenix,AZ,Mobile
+CUST_00378,Virginia,Sandoval,virginia.sandoval378@example.com,2025-09-18,2,23,Female,Houston,TX,Mobile
+CUST_00379,Kimberly,Gutierrez,kimberly.gutierrez379@example.com,2025-09-20,3,59,Female,Portland,OR,Desktop
+CUST_00380,Chelsea,Cox,chelsea.cox380@example.com,2025-09-21,3,38,Female,Portland,OR,Tablet
+CUST_00381,Nicole,Garrett,nicole.garrett381@example.com,2025-09-22,2,26,Female,Boston,MA,Mobile
+CUST_00382,Peter,Harris,peter.harris382@example.com,2025-09-23,3,44,Male,New York,NY,Desktop
+CUST_00383,Kirsten,Pennington,kirsten.pennington383@example.com,2025-09-25,6,33,Female,San Francisco,CA,Mobile
+CUST_00384,Jessica,Wolfe,jessica.wolfe384@example.com,2025-09-28,3,31,Female,Austin,TX,Mobile
+CUST_00385,Bryan,Dudley,bryan.dudley385@example.com,2025-09-28,1,40,Male,San Francisco,CA,Desktop
+CUST_00386,Lee,Allen,lee.allen386@example.com,2025-09-29,2,20,Male,Salt Lake City,UT,Mobile
+CUST_00387,Brooke,Pierce,brooke.pierce387@example.com,2025-09-29,2,38,Female,Salt Lake City,UT,Mobile
+CUST_00388,Kristen,Davis,kristen.davis388@example.com,2025-10-01,1,55,Female,Nashville,TN,Mobile
+CUST_00389,Wendy,Durham,wendy.durham389@example.com,2025-10-01,1,39,Female,Nashville,TN,Tablet
+CUST_00390,Joel,Wilson,joel.wilson390@example.com,2025-10-02,3,30,Male,Denver,CO,Mobile
+CUST_00391,Sandra,Jimenez,sandra.jimenez391@example.com,2025-10-02,2,28,Female,New York,NY,Mobile
+CUST_00392,Michelle,Hicks,michelle.hicks392@example.com,2025-10-03,6,29,Female,Austin,TX,Mobile
+CUST_00393,Denise,Davenport,denise.davenport393@example.com,2025-10-03,2,31,Female,Minneapolis,MN,Mobile
+CUST_00394,William,Sanchez,william.sanchez394@example.com,2025-10-03,1,30,Male,Portland,OR,Mobile
+CUST_00395,Kristen,Reyes,kristen.reyes395@example.com,2025-10-04,4,44,Female,Boston,MA,Desktop
+CUST_00396,Thomas,Romero,thomas.romero396@example.com,2025-10-04,6,18,Male,Minneapolis,MN,Desktop
+CUST_00397,Sherry,Shields,sherry.shields397@example.com,2025-10-05,2,43,Female,New York,NY,Desktop
+CUST_00398,Donald,Tyler,donald.tyler398@example.com,2025-10-05,2,30,Male,Seattle,WA,Desktop
+CUST_00399,Jennifer,Villa,jennifer.villa399@example.com,2025-10-06,1,38,Female,Denver,CO,Mobile
+CUST_00400,Katie,Hoover,katie.hoover400@example.com,2025-10-06,3,22,Female,Tampa,FL,Mobile
+CUST_00401,Diane,Evans,diane.evans401@example.com,2025-10-07,3,49,Female,San Diego,CA,Mobile
+CUST_00402,Kevin,Duarte,kevin.duarte402@example.com,2025-10-08,2,48,Male,Philadelphia,PA,Mobile
+CUST_00403,John,Hernandez,john.hernandez403@example.com,2025-10-08,1,45,Male,Dallas,TX,Tablet
+CUST_00404,Kimberly,Reed,kimberly.reed404@example.com,2025-10-08,3,18,Female,Phoenix,AZ,Desktop
+CUST_00405,Kristen,Daniels,kristen.daniels405@example.com,2025-10-14,6,43,Female,Boston,MA,Tablet
+CUST_00406,Jesse,Morris,jesse.morris406@example.com,2025-10-15,3,38,Male,Miami,FL,Mobile
+CUST_00407,Colin,Terry,colin.terry407@example.com,2025-10-17,3,18,Male,Portland,OR,Mobile
+CUST_00408,Laura,Hall,laura.hall408@example.com,2025-10-18,1,34,Female,Raleigh,NC,Mobile
+CUST_00409,Patricia,Williams,patricia.williams409@example.com,2025-10-18,2,38,Female,Los Angeles,CA,Mobile
+CUST_00410,Patrick,Thornton,patrick.thornton410@example.com,2025-10-18,2,40,Male,Philadelphia,PA,Mobile
+CUST_00411,Robert,Hughes,robert.hughes411@example.com,2025-10-19,4,36,Male,San Diego,CA,Mobile
+CUST_00412,Matthew,Hoover,matthew.hoover412@example.com,2025-10-20,6,37,Male,Philadelphia,PA,Mobile
+CUST_00413,Tina,Simpson,tina.simpson413@example.com,2025-10-20,6,50,Non-binary,Portland,OR,Tablet
+CUST_00414,Amanda,Shaw,amanda.shaw414@example.com,2025-10-20,6,47,Female,Houston,TX,Mobile
+CUST_00415,Leslie,Kane,leslie.kane415@example.com,2025-10-21,6,18,Female,New York,NY,Mobile
+CUST_00416,Shelly,Alexander,shelly.alexander416@example.com,2025-10-23,6,31,Female,Salt Lake City,UT,Desktop
+CUST_00417,Kelly,Bryant,kelly.bryant417@example.com,2025-10-27,1,32,Female,Raleigh,NC,Mobile
+CUST_00418,Miranda,Ortiz,miranda.ortiz418@example.com,2025-10-29,1,18,Female,Philadelphia,PA,Desktop
+CUST_00419,Mary,Moore,mary.moore419@example.com,2025-11-02,2,35,Female,San Diego,CA,Desktop
+CUST_00420,Julie,Costa,julie.costa420@example.com,2025-11-03,3,48,Female,Denver,CO,Mobile
+CUST_00421,George,Schwartz,george.schwartz421@example.com,2025-11-04,1,22,Male,Denver,CO,Desktop
+CUST_00422,Marie,Christian,marie.christian422@example.com,2025-11-04,5,38,Female,Raleigh,NC,Mobile
+CUST_00423,Sarah,Villarreal,sarah.villarreal423@example.com,2025-11-05,3,24,Female,Austin,TX,Desktop
+CUST_00424,James,Stewart,james.stewart424@example.com,2025-11-07,3,27,Male,New York,NY,Desktop
+CUST_00425,Nathan,Malone,nathan.malone425@example.com,2025-11-07,1,50,Male,San Jose,CA,Desktop
+CUST_00426,Shane,Johnson,shane.johnson426@example.com,2025-11-08,2,28,Male,Boston,MA,Mobile
+CUST_00427,Barry,Welch,barry.welch427@example.com,2025-11-09,1,39,Male,Denver,CO,Mobile
+CUST_00428,Thomas,Bright,thomas.bright428@example.com,2025-11-09,5,18,Male,Denver,CO,Desktop
+CUST_00429,Nicole,Hamilton,nicole.hamilton429@example.com,2025-11-09,3,54,Female,San Francisco,CA,Tablet
+CUST_00430,Annette,Schultz,annette.schultz430@example.com,2025-11-12,4,41,Female,Portland,OR,Mobile
+CUST_00431,Shane,Wallace,shane.wallace431@example.com,2025-11-12,2,32,Male,San Antonio,TX,Desktop
+CUST_00432,Melissa,Berger,melissa.berger432@example.com,2025-11-15,2,40,Female,Dallas,TX,Mobile
+CUST_00433,Amber,Flynn,amber.flynn433@example.com,2025-11-17,2,18,Female,Nashville,TN,Desktop
+CUST_00434,Elaine,Brooks,elaine.brooks434@example.com,2025-11-17,4,47,Female,Austin,TX,Tablet
+CUST_00435,Brianna,Schmidt,brianna.schmidt435@example.com,2025-11-17,4,30,Female,San Jose,CA,Mobile
+CUST_00436,Kylie,Sparks,kylie.sparks436@example.com,2025-11-17,2,32,Female,Phoenix,AZ,Mobile
+CUST_00437,Carolyn,Miller,carolyn.miller437@example.com,2025-11-17,6,29,Female,San Antonio,TX,Mobile
+CUST_00438,Seth,Harvey,seth.harvey438@example.com,2025-11-18,1,28,Male,Minneapolis,MN,Mobile
+CUST_00439,David,Durham,david.durham439@example.com,2025-11-19,6,42,Male,Salt Lake City,UT,Mobile
+CUST_00440,Briana,Murray,briana.murray440@example.com,2025-11-19,1,37,Female,Charlotte,NC,Mobile
+CUST_00441,David,Scott,david.scott441@example.com,2025-11-20,2,41,Male,San Diego,CA,Mobile
+CUST_00442,Alexandra,Ballard,alexandra.ballard442@example.com,2025-11-20,5,34,Female,Houston,TX,Mobile
+CUST_00443,Steven,Byrd,steven.byrd443@example.com,2025-11-22,1,40,Male,Houston,TX,Mobile
+CUST_00444,Eric,Alexander,eric.alexander444@example.com,2025-11-22,2,29,Non-binary,Austin,TX,Desktop
+CUST_00445,Haley,Matthews,haley.matthews445@example.com,2025-11-24,3,59,Female,Denver,CO,Desktop
+CUST_00446,Mark,Coleman,mark.coleman446@example.com,2025-11-24,2,18,Male,Tampa,FL,Mobile
+CUST_00447,John,Bruce,john.bruce447@example.com,2025-11-25,3,48,Non-binary,Tampa,FL,Desktop
+CUST_00448,Curtis,Cruz,curtis.cruz448@example.com,2025-11-27,5,49,Male,New York,NY,Mobile
+CUST_00449,Timothy,Young,timothy.young449@example.com,2025-11-29,6,25,Non-binary,Nashville,TN,Mobile
+CUST_00450,Kenneth,Andrews,kenneth.andrews450@example.com,2025-11-29,2,59,Male,San Diego,CA,Mobile
+CUST_00451,Wendy,Phillips,wendy.phillips451@example.com,2025-11-29,3,45,Female,Phoenix,AZ,Mobile
+CUST_00452,William,Barrett,william.barrett452@example.com,2025-11-29,2,45,Male,Boston,MA,Mobile
+CUST_00453,Donald,Knight,donald.knight453@example.com,2025-11-30,2,34,Male,New York,NY,Mobile
+CUST_00454,Michael,Garner,michael.garner454@example.com,2025-11-30,1,32,Male,Dallas,TX,Desktop
+CUST_00455,Amber,Obrien,amber.obrien455@example.com,2025-12-01,6,32,Female,Boston,MA,Desktop
+CUST_00456,Jonathan,Strong,jonathan.strong456@example.com,2025-12-02,6,38,Male,San Antonio,TX,Mobile
+CUST_00457,Donna,Lindsey,donna.lindsey457@example.com,2025-12-02,4,49,Female,Atlanta,GA,Mobile
+CUST_00458,Lawrence,Gomez,lawrence.gomez458@example.com,2025-12-04,3,36,Male,Seattle,WA,Mobile
+CUST_00459,Mallory,Oliver,mallory.oliver459@example.com,2025-12-04,3,24,Female,Portland,OR,Desktop
+CUST_00460,Michael,Le,michael.le460@example.com,2025-12-06,3,43,Male,Phoenix,AZ,Desktop
+CUST_00461,Matthew,Massey,matthew.massey461@example.com,2025-12-06,3,44,Male,Los Angeles,CA,Mobile
+CUST_00462,Lori,Berger,lori.berger462@example.com,2025-12-07,2,41,Female,Denver,CO,Mobile
+CUST_00463,Maria,Parker,maria.parker463@example.com,2025-12-08,1,42,Female,San Antonio,TX,Mobile
+CUST_00464,Jessica,Riley,jessica.riley464@example.com,2025-12-09,1,31,Female,Nashville,TN,Mobile
+CUST_00465,Jessica,Davis,jessica.davis465@example.com,2025-12-09,6,24,Non-binary,Chicago,IL,Desktop
+CUST_00466,Edward,Burgess,edward.burgess466@example.com,2025-12-09,3,24,Male,Boston,MA,Desktop
+CUST_00467,Casey,Anderson,casey.anderson467@example.com,2025-12-09,6,18,Female,Raleigh,NC,Mobile
+CUST_00468,Kimberly,Mata,kimberly.mata468@example.com,2025-12-10,1,37,Female,Chicago,IL,Mobile
+CUST_00469,Kiara,Mcintyre,kiara.mcintyre469@example.com,2025-12-10,3,33,Female,San Diego,CA,Mobile
+CUST_00470,Sandra,Scott,sandra.scott470@example.com,2025-12-11,2,29,Female,Salt Lake City,UT,Mobile
+CUST_00471,Makayla,Olson,makayla.olson471@example.com,2025-12-11,2,18,Non-binary,Denver,CO,Mobile
+CUST_00472,Robert,Francis,robert.francis472@example.com,2025-12-12,1,20,Male,Phoenix,AZ,Mobile
+CUST_00473,Gina,Wilson,gina.wilson473@example.com,2025-12-12,1,46,Female,Philadelphia,PA,Tablet
+CUST_00474,Victor,Taylor,victor.taylor474@example.com,2025-12-12,6,27,Male,Charlotte,NC,Mobile
+CUST_00475,Tracy,Dalton,tracy.dalton475@example.com,2025-12-12,2,38,Female,Salt Lake City,UT,Mobile
+CUST_00476,Nathaniel,Whitney,nathaniel.whitney476@example.com,2025-12-12,3,19,Male,Dallas,TX,Mobile
+CUST_00477,Tracy,Ballard,tracy.ballard477@example.com,2025-12-13,3,50,Female,Seattle,WA,Mobile
+CUST_00478,Jacob,Gibbs,jacob.gibbs478@example.com,2025-12-14,2,32,Male,Charlotte,NC,Desktop
+CUST_00479,Adrian,Herrera,adrian.herrera479@example.com,2025-12-15,3,37,Male,Phoenix,AZ,Mobile
+CUST_00480,Jordan,Chambers,jordan.chambers480@example.com,2025-12-15,1,60,Female,Phoenix,AZ,Desktop
+CUST_00481,Michael,Richards,michael.richards481@example.com,2025-12-16,6,51,Male,Charlotte,NC,Desktop
+CUST_00482,Lynn,Bentley,lynn.bentley482@example.com,2025-12-17,5,31,Non-binary,Phoenix,AZ,Mobile
+CUST_00483,Ashley,Hall,ashley.hall483@example.com,2025-12-17,4,27,Female,Charlotte,NC,Mobile
+CUST_00484,Allison,Henson,allison.henson484@example.com,2025-12-18,3,30,Female,Seattle,WA,Tablet
+CUST_00485,Justin,Herman,justin.herman485@example.com,2025-12-19,1,40,Male,Raleigh,NC,Mobile
+CUST_00486,Connie,Brown,connie.brown486@example.com,2025-12-19,6,33,Female,New York,NY,Mobile
+CUST_00487,Samantha,Blankenship,samantha.blankenship487@example.com,2025-12-20,2,30,Female,San Francisco,CA,Desktop
+CUST_00488,Elizabeth,Ortiz,elizabeth.ortiz488@example.com,2025-12-21,1,50,Female,Philadelphia,PA,Desktop
+CUST_00489,Charles,Shah,charles.shah489@example.com,2025-12-22,2,33,Male,New York,NY,Mobile
+CUST_00490,Elizabeth,Vasquez,elizabeth.vasquez490@example.com,2025-12-22,4,59,Female,Minneapolis,MN,Mobile
+CUST_00491,Anne,Clay,anne.clay491@example.com,2025-12-23,3,35,Female,Denver,CO,Mobile
+CUST_00492,Chad,Chavez,chad.chavez492@example.com,2025-12-23,4,54,Male,Salt Lake City,UT,Desktop
+CUST_00493,Michael,Paul,michael.paul493@example.com,2025-12-24,4,38,Male,Chicago,IL,Mobile
+CUST_00494,Tracy,Barnes,tracy.barnes494@example.com,2025-12-25,2,45,Male,Los Angeles,CA,Mobile
+CUST_00495,Natalie,Moore,natalie.moore495@example.com,2025-12-26,6,26,Female,Boston,MA,Desktop
+CUST_00496,Robert,Garcia,robert.garcia496@example.com,2025-12-26,2,25,Non-binary,Tampa,FL,Tablet
+CUST_00497,John,Russell,john.russell497@example.com,2025-12-27,3,39,Male,Austin,TX,Desktop
+CUST_00498,Tiffany,Johnson,tiffany.johnson498@example.com,2025-12-29,1,45,Female,Portland,OR,Mobile
+CUST_00499,Jacob,Ramos,jacob.ramos499@example.com,2025-12-31,6,34,Male,Tampa,FL,Mobile
+CUST_00500,Tiffany,Foley,tiffany.foley500@example.com,2025-12-31,2,20,Female,Salt Lake City,UT,Tablet

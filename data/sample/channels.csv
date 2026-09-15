@@ -1,0 +1,7 @@
+channel_id,channel_name,channel_type
+1,Organic Search,Organic
+2,Paid Search,Paid
+3,Paid Social,Paid
+4,Affiliate,Referral
+5,Email,Owned
+6,Direct,Organic

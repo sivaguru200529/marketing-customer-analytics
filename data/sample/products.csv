@@ -1,0 +1,51 @@
+product_id,product_name,category,sub_category,cost_price,retail_price
+PROD_001,Wool Overcoat,Apparel,Outerwear,24.25,54.0
+PROD_002,Water-Resistant Bomber,Apparel,Outerwear,47.3,131.99
+PROD_003,Packable Windbreaker,Apparel,Outerwear,51.33,131.5
+PROD_004,Wide-Leg Linen Pant,Apparel,Denim & Bottoms,44.82,103.0
+PROD_005,Four-Way Stretch Hoodie,Apparel,Activewear,45.1,116.0
+PROD_006,Athletic Tech Jogger,Apparel,Activewear,37.48,102.0
+PROD_007,Moisture-Wicking Half-Zip,Apparel,Activewear,38.48,101.99
+PROD_008,Cozy Knit Cardigan,Apparel,Loungewear,26.94,68.5
+PROD_009,Handcrafted Stoneware Plate Set,Home Goods,Kitchen & Dining,28.96,66.0
+PROD_010,Minimalist Ceramic Vase,Home Goods,Home Decor,93.83,191.0
+PROD_011,Handwoven Wool Area Rug,Home Goods,Home Decor,36.02,79.0
+PROD_012,Cedarwood & Amber Soy Candle,Home Goods,Candles & Diffusers,58.51,153.0
+PROD_013,Smoked Hinoki Reed Diffuser,Home Goods,Candles & Diffusers,67.83,154.5
+PROD_014,Stackable Linen Storage Box,Home Goods,Storage,90.88,183.0
+PROD_015,Canvas Laundry Hamper,Home Goods,Storage,16.06,41.0
+PROD_016,Modular Acrylic Organizer,Home Goods,Storage,48.85,114.99
+PROD_017,Rattan Basket with Lid,Home Goods,Storage,20.96,53.0
+PROD_018,Ceramide Barrier Cream,Beauty & Wellness,Skincare,16.16,52.0
+PROD_019,Gentle Gel Cleanser,Beauty & Wellness,Skincare,20.15,66.5
+PROD_020,Volumizing Biotin Shampoo,Beauty & Wellness,Haircare,5.51,24.5
+PROD_021,Heat Protectant Priming Spray,Beauty & Wellness,Haircare,22.54,87.0
+PROD_022,Silk Gloss Leave-In Milk,Beauty & Wellness,Haircare,9.7,38.99
+PROD_023,Rich Shea Souffle Cream,Beauty & Wellness,Body & Bath,21.57,73.99
+PROD_024,Hand Treatment Balm,Beauty & Wellness,Body & Bath,8.84,38.0
+PROD_025,Daily Liposomal Multivitamin,Beauty & Wellness,Supplements,17.16,53.0
+PROD_026,Deep Rest Sleep Melatonin,Beauty & Wellness,Supplements,13.73,41.99
+PROD_027,Calming Lavender Pulse Oil,Beauty & Wellness,Aromatherapy,20.99,83.5
+PROD_028,Focus Peppermint Inhaler,Beauty & Wellness,Aromatherapy,19.73,73.5
+PROD_029,Grounding Frankincense Blend,Beauty & Wellness,Aromatherapy,16.59,62.5
+PROD_030,Recycled Canvas Weekender,Accessories,Bags & Totes,14.17,35.99
+PROD_031,Nylon Slouchy Sling Bag,Accessories,Bags & Totes,35.23,100.5
+PROD_032,Compact Tech Pouch,Accessories,Bags & Totes,14.03,44.99
+PROD_033,14k Gold Vermeil Herringbone Chain,Accessories,Jewelry,12.54,48.0
+PROD_034,Engraved Signet Ring,Accessories,Jewelry,35.34,113.5
+PROD_035,Italian Calfskin Watch Strap,Accessories,Watches & Straps,6.53,25.5
+PROD_036,Handcrafted Acetate Sunglasses,Accessories,Eyewear,38.18,98.5
+PROD_037,Blue Light Blocking Glasses,Accessories,Eyewear,32.31,98.99
+PROD_038,Cat-Eye UV Protection Shades,Accessories,Eyewear,55.93,170.0
+PROD_039,100% Cashmere Ribbed Beanie,Accessories,Hats & Scarves,22.59,64.5
+PROD_040,Brushed Alpaca Wool Scarf,Accessories,Hats & Scarves,41.66,104.99
+PROD_041,True Wireless Studio Earbuds,Electronics & Audio,Earbuds & Headphones,105.75,212.5
+PROD_042,Retro On-Ear Bluetooth Headphone,Electronics & Audio,Earbuds & Headphones,41.05,65.0
+PROD_043,3-in-1 MagSafe Charging Stand,Electronics & Audio,Wireless Chargers,108.09,179.5
+PROD_044,Portable Magnetic Battery Pack,Electronics & Audio,Wireless Chargers,91.92,176.99
+PROD_045,Braided USB-C Cable Trio,Electronics & Audio,Wireless Chargers,29.16,58.99
+PROD_046,Precision Sensor Desk Mat,Electronics & Audio,Smart Desk Accessories,46.68,84.0
+PROD_047,Aluminum Laptop Riser Stand,Electronics & Audio,Smart Desk Accessories,58.02,114.0
+PROD_048,Rugged Waterproof Bluetooth Speaker,Electronics & Audio,Portable Speakers,101.99,208.99
+PROD_049,360-Degree Sound Dome,Electronics & Audio,Portable Speakers,54.56,97.0
+PROD_050,Shower Suction Wireless Speaker,Electronics & Audio,Portable Speakers,56.6,90.99
