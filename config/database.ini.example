@@ -3,15 +3,18 @@
 # Copy this file to "database.ini" and update credentials if using a custom host.
 # ==============================================================================
 
+# Environment variable overrides supported:
+# POSTGRES_HOST, POSTGRES_PORT, POSTGRES_DB, POSTGRES_USER, POSTGRES_PASSWORD, POSTGRES_SCHEMA
 [postgresql]
 host = localhost
 port = 5432
 database = aura_retail_db
 user = postgres
 password = postgres_secure_password
-schema = public
+schema = aura_retail
 
 [sqlite_fallback]
 # Used if PostgreSQL is unavailable or for offline testing
-enabled = true
+enabled = false
 db_path = data/aura_retail.db
+
