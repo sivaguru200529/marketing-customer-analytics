@@ -57,10 +57,11 @@ desktop.ini
 # PostgreSQL local data volume (if running locally without named volume)
 docker/postgres_data/
 
-# Generated Raw and Processed Large Datasets (keep sample data in git)
+# Generated Raw, Processed, and Analytics Datasets (keep sample data in git)
 data/01_raw/*.csv
 data/02_processed/*.csv
 data/03_analytical/*.csv
+data/03_analytics/*.csv
 !data/sample/*.csv
 !data/*/.gitkeep
 
