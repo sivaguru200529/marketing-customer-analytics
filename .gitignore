@@ -62,8 +62,11 @@ data/01_raw/*.csv
 data/02_processed/*.csv
 data/03_analytical/*.csv
 data/03_analytics/*.csv
+data/04_eda/**/*.csv
+data/04_eda/**/*.png
 !data/sample/*.csv
 !data/*/.gitkeep
+!data/**/.gitkeep
 
 # Power BI local backup / temporary files
 *.pbix.temp
