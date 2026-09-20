@@ -64,6 +64,8 @@ data/03_analytical/*.csv
 data/03_analytics/*.csv
 data/04_eda/**/*.csv
 data/04_eda/**/*.png
+data/04_rfm/**/*.csv
+data/04_rfm/**/*.png
 !data/sample/*.csv
 !data/*/.gitkeep
 !data/**/.gitkeep
