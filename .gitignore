@@ -66,6 +66,7 @@ data/04_eda/**/*.csv
 data/04_eda/**/*.png
 data/04_rfm/**/*.csv
 data/04_rfm/**/*.png
+data/04_customer_intelligence/**/*.csv
 !data/sample/*.csv
 !data/*/.gitkeep
 !data/**/.gitkeep

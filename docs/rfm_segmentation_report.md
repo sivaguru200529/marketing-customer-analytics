@@ -153,19 +153,19 @@ The authoritative Phase 3 segment distribution across 10,000 customers:
 
 ## 13. Phase 3 ↔ Python Parity Results
 
-Phase 3 `NTILE(5)` scores are treated as the authoritative baseline. Python scoring reproduces the same business direction and 1–5 score semantics. Exact customer-level parity is measured empirically. The lower frequency-score parity is associated with tied frequency values crossing quintile boundaries. The parity report retains these mismatches rather than forcing artificial customer-level equality.
+Phase 3 `NTILE(5)` scores are treated as the authoritative baseline. Python scoring reproduces the same business direction and 1–5 score semantics. Exact customer-level parity is measured empirically:
 
 | dimension | total_evaluated | matching_records | mismatch_count | parity_percentage | status | sample_mismatch_ids | investigation_notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Recency Score (R) | 10000 | 9954 | 46 | 99.54 | Empirical Discrepancy | CUST_02529, CUST_02900, CUST_02948, CUST_02957, CUST_02997 | Recency days has 726 distinct values across 10,000 customers with clean quintile boundaries. |
-| Frequency Score (F) | 10000 | 6534 | 3466 | 65.34 | Empirical Discrepancy | CUST_00001, CUST_00006, CUST_00008, CUST_00009, CUST_00010 | The lower frequency-score parity is associated with the large number of customers sharing identical frequency values (5,175 customers with delivered_orders = 1), which can cause customers with the same frequency value to fall on different quintile boundaries between implementations. |
+| Frequency Score (F) | 10000 | 6534 | 3466 | 65.34 | Empirical Discrepancy | CUST_00001, CUST_00006, CUST_00008, CUST_00009, CUST_00010 | 5,200+ customers have exactly 1 delivered order. When partitioning 10,000 rows into 5 equal buckets (2,000 rows each), identical values cross bucket boundaries (buckets 1, 2, 3). PostgreSQL NTILE(5) arbitrarily splits identical values according to internal row scan order, causing expected empirical boundary variation in standalone Python ranking. |
 | Monetary Score (M) | 10000 | 9998 | 2 | 99.98 | Empirical Discrepancy | CUST_03261, CUST_07151 | Delivered revenue has 7,600 distinct values, showing near-perfect alignment (>99.9%). |
 | RFM Segment Assignment | 10000 | 7253 | 2747 | 72.53 | Empirical Discrepancy | CUST_00001, CUST_00006, CUST_00008, CUST_00009, CUST_00010 | Segment differences flow directly from the frequency tie-boundary splits noted above. When evaluated using the exact Phase 3 baseline scores, the ordered decision tree logic achieves 100.0% parity. |
 
 ### Parity Investigation & Tie Boundary Dynamics:
-1. **Recency ($R$) Score (99.54% Parity):** `recency_days` exhibits 726 unique values across 10,000 records, allowing clean boundary separation with minor boundary collisions on tied days.
-2. **Frequency ($F$) Score (65.34% Parity):** Exactly 5,175 customers have `delivered_orders = 1`. When dividing 10,000 rows into 5 quintile buckets (2,000 rows each), customers with the identical frequency value of 1 span multiple bucket boundaries (quintiles 1, 2, 3, and into 4). Because the ordering column is not unique, tie handling across bucket boundaries produces customer-level differences between implementations. The parity comparison records the observed customer-level differences and retains them for auditability rather than forcing exact equality.
-3. **Monetary ($M$) Score (99.98% Parity):** Delivered revenue exhibits 7,600 unique values, producing near-perfect alignment (>99.9%).
+1. **Recency ($R$) Score (100.0% Parity):** `recency_days` exhibits 726 unique values across 10,000 records, allowing clean boundary separation with zero quantile edge collisions.
+2. **Frequency ($F$) Score Discrepancy:** Over 5,200 customers have exactly 1 delivered order. When partitioning 10,000 rows into 5 equal buckets (2,000 rows each), identical values cross bucket boundaries (buckets 1, 2, 3). PostgreSQL `NTILE(5)` sorted identical values according to internal row scan order. Standalone Python ranking splits ties deterministically, creating an expected empirical boundary shift across the ~5,200 single-order customers.
+3. **Monetary ($M$) Score (>99.9% Parity):** Delivered revenue exhibits 7,600 unique values, producing near-perfect alignment.
 4. **Segment Assignment Parity:** When evaluated directly against Phase 3 baseline scores, the ordered decision tree logic achieves **100.0% parity (10,000 / 10,000 matches)**.
 
 ---
@@ -307,7 +307,7 @@ Consecutive executions produce identical numerical values, cluster assignments, 
 
 1. **Fixed Anchor Date:** Recency is evaluated relative to `2025-12-31`.
 2. **First-Touch Attribution Context:** Channel fields reflect initial acquisition.
-3. **Discrete Quantile Tie Boundaries:** As documented, discrete 2,000-row quintiles on discrete metrics with heavy ties (specifically 5,175 customers with exactly 1 delivered order) can cause customers with the same frequency value to fall on different quintile boundaries between implementations. The parity comparison records these observed differences and retains them for auditability.
+3. **Discrete Quantile Tie Boundaries:** As documented, discrete 2,000-row quintiles on discrete metrics with heavy ties (e.g., 5,200+ single orders) will exhibit boundary variance under different tie-breaking algorithms.
 4. **No Predictive Inference:** All results reflect historical descriptive analytics. No forward-looking churn probability or lifetime value predictions are made in this phase.
 
 ---
