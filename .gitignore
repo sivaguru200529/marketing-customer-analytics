@@ -67,9 +67,16 @@ data/04_eda/**/*.png
 data/04_rfm/**/*.csv
 data/04_rfm/**/*.png
 data/04_customer_intelligence/**/*.csv
+data/05_churn/**/*.csv
+data/05_churn/**/*.png
 !data/sample/*.csv
 !data/*/.gitkeep
 !data/**/.gitkeep
+
+# Machine Learning Model Artifacts
+models/*.joblib
+models/*.pkl
+models/*.json
 
 # Power BI local backup / temporary files
 *.pbix.temp
